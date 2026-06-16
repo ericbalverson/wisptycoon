@@ -591,6 +591,10 @@ body::before{content:'';position:fixed;inset:0;background:repeating-linear-gradi
   <div id="alert-area"></div>
   <div id="event-area"></div>
 
+  <div id="news-ticker" style="background:rgba(20,184,166,0.06);border-top:1px solid rgba(20,184,166,0.12);border-bottom:1px solid rgba(20,184,166,0.12);padding:4px 14px;display:flex;align-items:center;gap:10px;font-size:10px;font-family:var(--font-mono);overflow:hidden;min-height:22px">
+    <span style="color:var(--teal);font-weight:600;white-space:nowrap;flex-shrink:0;font-size:9px;letter-spacing:1px">📡 WIRE</span>
+    <span id="news-ticker-text" style="color:var(--text2);transition:opacity 0.4s ease;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%">Initializing market feed...</span>
+  </div>
   <div class="goal-bar-wrap">
     <span style="font-family:var(--font-mono);font-size:9px;color:var(--text3);white-space:nowrap"><i class="ti ti-trophy"></i> MRR Goal</span>
     <div class="bar-track"><div class="bar-fill" id="goal-bar" style="width:0%"></div></div>
